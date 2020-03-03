@@ -11,6 +11,14 @@ public class Student {
 		this.name = name;
 		this.latlon = latlon;
 	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", latlon=" + latlon + "]\n";
+	}
+
 	public String getName() {
 		return name;
 	}

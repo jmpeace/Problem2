@@ -1,31 +1,32 @@
 package truextend.problem2.geo;
 
-import java.math.BigDecimal;
-
 public class LatLon {
 	
-	private BigDecimal lat;
-	private BigDecimal lon;
+	private double lat;
+	private double lon;
 	
-	public LatLon(BigDecimal lat, BigDecimal lon) {
+	@Override
+	public String toString() {
+		return "LatLon [lat=" + lat + ", lon=" + lon + "]";
+	}
+	public LatLon(double lat, double lon) {
 		this.lat = lat;
 		this.lon = lon;
 	}
-	public LatLon(String lat, String lon) {
-		this(new BigDecimal(lat),new BigDecimal(lon));
-	}
-	public BigDecimal getLat() {
+	public double getLat() {
 		return lat;
 	}
-	public void setLat(BigDecimal lat) {
+	public void setLat(double lat) {
 		this.lat = lat;
 	}
-	public BigDecimal getLon() {
+	public double getLon() {
 		return lon;
 	}
-	public void setLon(BigDecimal lon) {
+	public void setLon(double lon) {
 		this.lon = lon;
 	}
+	
+
 	
 	
 
