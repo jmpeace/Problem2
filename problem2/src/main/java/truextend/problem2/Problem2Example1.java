@@ -10,10 +10,6 @@ import truextend.problem2.geo.LatLon;
 import truextend.problem2.model.Classroom;
 import truextend.problem2.model.Student;
 
-/**
- * Hello world!
- *
- */
 public class Problem2Example1 
 {
 	final static Logger log = Logger.getLogger(Problem2Example1.class);
